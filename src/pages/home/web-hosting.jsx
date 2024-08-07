@@ -18,7 +18,7 @@ import CallToActions from "../../components/feature-web-hosting/CallToActions";
 const WebHosting = () => {
   return (
     <>
-      <Seo pageTitle="Web Hosting" />
+      <Seo pageTitle="Home" />
 
       {/* <!--  =============================================
       Theme Header2 Menu
@@ -37,14 +37,14 @@ const WebHosting = () => {
 				Partner Section Four
 			============================================== 
 			*/}
-      <div className="partner-section-four position-relative pt-100 sm-pt-70">
-        <div className="wrapper m-auto">
-          <div className="partner_slider_one row">
-            <Partner />
-          </div>
-        </div>
+      {/* <div className="partner-section-four position-relative pt-100 sm-pt-70"> */}
+        {/* <div className="wrapper m-auto"> */}
+          {/* <div className="partner_slider_one row"> */}
+            {/* <Partner /> */}
+          {/* </div> */}
+        {/* </div> */}
         {/* /.wrapper */}
-      </div>
+      {/* </div> */}
       {/* /.partner-section-four */}
 
       <>
@@ -53,7 +53,7 @@ const WebHosting = () => {
 				Pricing Section Four
 			============================================== 
 			*/}
-        <div className="pricing-section-four pt-170 lg-pt-100">
+        {/* <div className="pricing-section-four pt-170 lg-pt-100">
           <div className="container">
             <div className="row">
               <div className="col-xxl-10 col-md-9 m-auto">
@@ -69,18 +69,15 @@ const WebHosting = () => {
                     </span>
                   </h2>
                 </div>
-                {/* /.title-style-seven */}
               </div>
             </div>
           </div>
-          {/* End .container */}
 
           <div className="wrapper pricing-table-area-four m-auto pt-80 lg-pt-30">
             <div className="row">
               <Pricing />
             </div>
           </div>
-          {/* /.pricing-table-area-four */}
 
           <div className="container">
             <div className="text-center mt-100 lg-mt-50 " data-aos="fade-up">
@@ -93,9 +90,7 @@ const WebHosting = () => {
               </div>
             </div>
           </div>
-          {/* /.container */}
-        </div>
-        {/* /.pricing-section-four */}
+        </div> */}
         {/* 
 			=============================================
 				Feature Section Twenty Three
@@ -108,9 +103,9 @@ const WebHosting = () => {
               data-aos="fade-up"
             >
               <h2 className="main-title fw-bold tx-dark">
-                All Included
+                Why Choose 
                 <span className="position-relative d-inline-block">
-                  Plan
+                  Us
                   <img src="/images/shape/shape_97.svg" alt="illustration" />
                 </span>
               </h2>
@@ -128,7 +123,7 @@ const WebHosting = () => {
 				Fancy Short Banner Nine
 			=====================================================
 			*/}
-        <BannerSubscribe />
+        {/* <BannerSubscribe /> */}
         {/* /.fancy-short-banner-nine */}
         {/* 
 			=============================================
@@ -146,7 +141,7 @@ const WebHosting = () => {
           <div className="container">
             <div className="border-top">
               <div className="row gx-xxl-5">
-                <FancyBlock />
+                {/* <FancyBlock /> */}
               </div>
             </div>
           </div>
@@ -172,7 +167,7 @@ const WebHosting = () => {
                     />
                     <div className="title-style-seven text-center pt-30 pb-55">
                       <h2 className="main-title fw-bold text-white">
-                        Check what these clients have to say.
+                      Discover a Path to Success with Our Expert-Led Symposiums and Personalized Counseling
                       </h2>
                     </div>
                     {/* /.title-style-seven */}
@@ -180,7 +175,7 @@ const WebHosting = () => {
                 </div>
                 {/* End .row */}
 
-                <Testimonial />
+                {/* <Testimonial /> */}
               </div>
               {/* /.inner-wrapper */}
             </div>
@@ -213,14 +208,14 @@ const WebHosting = () => {
               <div className="col-xl-9 col-lg-10 m-auto " data-aos="fade-up">
                 <Faq />
 
-                <div className="text-center  mt-80 lg-mt-50">
+                {/* <div className="text-center  mt-80 lg-mt-50">
                   <h3 className="fw-bold tx-dark mb-30">
                     Didn’t get your answer?
                   </h3>
                   <Link to="/contact" className="btn-fourteen fw-500 tran3s">
                     Submit your question
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -233,7 +228,7 @@ const WebHosting = () => {
 				Fancy Short Banner Ten
 			=====================================================
 			*/}
-        <CallToActions />
+        {/* <CallToActions /> */}
         {/* /.fancy-short-banner-ten */}
 
         {/*
@@ -241,41 +236,39 @@ const WebHosting = () => {
 		Footer
 		=====================================================
 		*/}
-        <div className="footer-style-seven p-30 theme-basic-footer">
-          <div className="bg-wrapper position-relative">
-            <div className="container">
-              <div className="row justify-content-between">
-                <div className="col-xl-2 footer-intro mb-40">
-                  <div className="logo">
-                    <Link to="/">
-                      <img src="/images/logo/logo_01.png" alt="brand" />
-                    </Link>
-                  </div>
+      <div className="footer-style-seven p-30 theme-basic-footer">
+        <div className="bg-wrapper position-relative">
+          <div className="container">
+            <div className="row justify-content-between">
+              <div className="col-xl-2 footer-intro mb-40">
+                <div className="logo">
+                  <Link to="/">
+                    <p className="text-lg tx-dark hero-heading fw-bold">Multibrass.</p>
+                  </Link>
                 </div>
-                {/* End .col */}
-
-                <Footer2 />
-
-                <div className="col-xl-4 col-lg-5 mb-30 form-widget">
-                  <h5 className="footer-title tx-dark fw-normal">
-                    Newslettert
-                  </h5>
-                  <h6 className="pt-15 pb-20 md-pt-10">Join our newsletter</h6>
-                  <NewsLetter />
-                  <div className="fs-14 mt-10">
-                    We only send interesting and relevant emails.
-                  </div>
-                </div>
-                {/* End .col-xl-4 */}
               </div>
-              {/* End .row */}
+              {/* End .col */}
+
+              <Footer2 />
+
+              {/* <div className="col-xl-4 col-lg-5 mb-30 form-widget">
+                <h5 className="footer-title tx-dark fw-normal">Newslettert</h5>
+                <h6 className="pt-15 pb-20 md-pt-10">Join our newsletter</h6>
+                <NewsLetter />
+                <div className="fs-14 mt-10">
+                  We only send interesting and relevant emails.
+                </div>
+              </div> */}
+              {/* End .col-xl-4 */}
             </div>
-            {/* /.container */}
+            {/* End .row */}
           </div>
-          {/* /.bg-wrapper */}
-          <CopyrightFooter2 />
-          {/* /.bottom-footer */}
+          {/* /.container */}
         </div>
+        {/* /.bg-wrapper */}
+        <CopyrightFooter2 />
+        {/* /.bottom-footer */}
+      </div>
         {/* /.footer-style-seven */}
       </>
     </>

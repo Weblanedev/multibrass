@@ -3,22 +3,24 @@ import { Link } from "react-router-dom";
 const FancyBanner = () => {
   const bannerData = [
     {
-      title: "TRSUTED SECURITY",
-      mainTitle: "Security you can trust blindly.",
+      title: "Guidance and Counseling",
+      mainTitle: "Empower Your Journey with Expert Guidance.",
       description:
-        "Lorem ipsum began as scrambled, Latin derived Cicero's 1st-century BC text De Finibus ubiquitous lorem ipsum passage.",
+        "At Multibrass, we understand that life can present a myriad of challenges and decisions. Our comprehensive guidance and counseling services are designed to support you through every step of your journey. Whether you are seeking personal growth, career advice, or emotional support, our team of experienced counselors is here to provide you with the tools and insights you need to navigate life's complexities.",
       buttonLabel: "Click here to learn more",
+      link: "/our-counseling",
       illustration: "/images/assets/ils_06.png",
       illustrationAlt: "illustration",
       illustrationPosition: "right",
       aos: "fade-right",
     },
     {
-      title: "SITE TRANSFER",
-      mainTitle: "Migration is super fast with no downtime.",
+      title: "Workshops",
+      mainTitle: "Unlock New Skills and Insights with Our Expert-Led Workshops",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisci sed do eiusmod tempor incididunt ut labore et dolore magna ad minim veniam.",
-      buttonLabel: "",
+        "At Multibrass, we are committed to fostering personal and professional growth through our engaging and informative workshops. Our workshops cover a wide range of topics, from career development and leadership skills to personal wellness and creative pursuits. Led by industry experts and seasoned professionals, these sessions are designed to provide you with practical knowledge and hands-on experience.",
+      buttonLabel: "Click here to learn more",
+      link: "/our-workshops",
       illustration: "/images/assets/ils_07.png",
       illustrationAlt: "illustration",
       illustrationPosition: "left",
@@ -47,7 +49,7 @@ const FancyBanner = () => {
                 <p className="fs-20 lh-lg mt-35 lg-mt-20">{data.description}</p>
                 {data.buttonLabel !== "" && (
                   <Link
-                    to="/pages-menu/about-us-v1"
+                    to={`${data.link}`}
                     className="btn-fifteen fw-500 position-relative d-inline-flex align-items-center"
                   >
                     <span>{data.buttonLabel}</span>

@@ -4,7 +4,7 @@ const Seo = ({ pageTitle }) => (
     <Helmet>
       <title>
         {pageTitle &&
-          `${pageTitle} - Amberstream`}
+          `${pageTitle} - Multibrass`}
       </title>
     </Helmet>
   </HelmetProvider>

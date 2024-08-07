@@ -2,30 +2,9 @@ const columns = [
   {
     title: "Links",
     links: [
-      { label: "Home", url: "/" },
-      { label: "Pricing", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Service", url: "/" },
-      { label: "Blog", url: "/" },
-    ],
-  },
-  {
-    title: "Support",
-    links: [
-      { label: "Item Support", url: "/" },
-      { label: "Forum", url: "/" },
-      { label: "Report Abuse", url: "/" },
-      { label: "Live", url: "/" },
-    ],
-  },
-  {
-    title: "Products",
-    links: [
-      { label: "Web hosting", url: "/" },
-      { label: "Cloud hosting", url: "/" },
-      { label: "WordPress hosting", url: "/" },
-      { label: "VPS hosting", url: "/" },
-      { label: "Dedicated hosting", url: "/" },
+      { label: "About us", href: "/about-us" },
+      { label: "Workshops", href: "/our-workshops" },
+      { label: "Counseling", href: "/our-counseling" },
     ],
   },
 ];
@@ -45,6 +24,13 @@ const Footer2 = () => {
           </ul>
         </div>
       ))}
+      <div className="col-xl-3 col-lg-4 col-md-5 mb-30">
+        <h5 className="footer-title tx-dark fw-500">Address</h5>
+        <p className="tx-dark opacity-75 mb-35">
+          2190 Zinai terrace, Lake view <br />
+          house state, 10 no road.
+        </p>
+      </div>
     </>
   );
 };

@@ -3,53 +3,52 @@ import { Link } from "react-router-dom";
 
 const pricingData = [
   {
-    name: "Basic Plan",
+    name: "Basic Support Plan",
     details: "For individuals",
     background: "#FFF7EB",
-    price: "120",
-    monthlyText: "Single paticipant",
-    renewalText: "",
-    features: [
-      "Access to All Basic Workshops",
-      "5 Hours of Online Sessions",
-      "Certificate of Participation",
-      "Email & Live chat Support",
-      "Workshop Materials",
-      "Discount on Future Workshops",
-    ],
-  },
-  {
-    name: "Advanced Plan",
-    details: "For Teams",
-    background: "#E2F2FD",
-    price: "350",
-    monthlyText: "For team of 4",
-    renewalText: "",
-    features: [
-      "Access to All Workshops",
-      "10 Hours of Online Sessions",
-      "Certificate of Excellence",
-      "Email & Live Chat Support",
-      "Workshop Materials",
-      "1-on-1 Mentoring Session",
-      "Discount on Future Workshops"
-    ],
-  },
-  {
-    name: "Premium Plan",
-    details: "For Businesses",
-    background: "#FFEBEB",
-    price: "975",
+    price: "110",
     monthlyText: "",
     renewalText: "",
     features: [
-      "Access to All Workshops",
-      "16 Hours of Online Sessions",
-      "Certificate of Excellence",
-      "Email & Live Chat Support",
-      "Workshop Materials",
-      "1-on-1 Mentoring Session",
-      "Discount on Future Workshops"
+      "One 60-minute Counseling Session",
+      "Access to Online Resources",
+      "Email & Live chat Support",
+      "Monthly Group Support Session",
+      "Progress Tracking",
+    ],
+  },
+  {
+    name: "Comprehensive Support Plan",
+    details: "For Teams",
+    background: "#E2F2FD",
+    price: "280",
+    monthlyText: "",
+    renewalText: "",
+    features: [
+        "Three 60-minute Counseling Session",
+        "Access to Online Resources",
+        "Email & Live chat Support",
+        "Monthly Group Support Session",
+        "Personalized Action Plan",
+        "Progress Tracking",
+    ],
+  },
+  {
+    name: "Premium Support Plan",
+    details: "For Businesses",
+    background: "#FFEBEB",
+    price: "625",
+    monthlyText: "",
+    renewalText: "",
+    features: [
+        "Six 75-minute Counseling Session",
+        "Access to Online Resources",
+        "Email & Live chat Support",
+        "Monthly Group Support Session",
+        "Personalized Action Plan",
+        "Progress Tracking",
+        "1-on-1 Follow-up Session",
+        
     ],
   },
 ];
@@ -69,8 +68,8 @@ const Pricing3 = () => {
               {pricing.details}
             </div>
             <div
-              className="top-banner align-items-center d-md-flex"
-              style={{ background: pricing.background }}
+            style={{textAlign:'center', background: pricing.background}}
+              className="top-banner"
             >
               <div className="price fw-500">
                 <sup>$</sup>

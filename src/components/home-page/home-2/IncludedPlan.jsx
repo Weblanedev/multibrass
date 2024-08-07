@@ -2,48 +2,48 @@ const cards = [
   {
     id: 1,
     icon: "/images/icon/icon_63.svg",
-    title: "1-click installation",
+    title: "No. 1 Platform for Personal and Professional Growth",
     description:
-      "Integrating your apps couldn't be any easier through Installatron.",
+      "At Multibrass, we pride ourselves on being the leading choice for guidance and counseling, symposiums, and workshops.",
     delayAnim: "100",
   },
   {
     id: 2,
     icon: "/images/icon/icon_64.svg",
-    title: "Domain name setup",
+    title: "Expertise and Experience",
     description:
-      "Linking your site to your domain name has never been easier with GoDaddy registered domain.",
+      "Our team of experienced professionals is committed to delivering high-quality services that meet your unique needs.",
     delayAnim: "200",
   },
   {
     id: 3,
     icon: "/images/icon/icon_65.svg",
-    title: "24/7 network security",
-    description: "Get peace of mind, knowing network dsu security and visitors",
+    title: "Comprehensive Support",
+    description: "We offer a holistic approach to personal and professional development, combining counseling, educational events, and e-trade solutions.",
     delayAnim: "300",
   },
   {
     id: 4,
     icon: "/images/icon/icon_66.svg",
-    title: "Easy-to-use control panel",
+    title: "Proven Track Record of Success",
     description:
-      "Includes industry-standard cPanel to install apps, manage backups and security.",
+      "By choosing Multibrass, you become part of a vibrant community of professionals, experts, and like-minded individuals.",
     delayAnim: "100",
   },
   {
     id: 5,
     icon: "/images/icon/icon_67.svg",
-    title: "Resources on-demand",
+    title: "Engaging and Interactive Learning Experiences",
     description:
-      "If you require more power for your site, seamlessly increase your CPU/RAM, I/O and storage with 1 click.",
+      "We focus on creating engaging and dynamic sessions that provide valuable insights, foster networking opportunities, and encourage active participation.",
     delayAnim: "200",
   },
   {
     id: 6,
     icon: "/images/icon/icon_68.svg",
-    title: "Global Data Centers",
+    title: "Personalized and Client-Centric Approach",
     description:
-      "Get faster page loads & better customer experience with lorem.",
+      "At Multibrass, you are not just a client; you are a valued partner. We take a personalized approach to every service, focusing on your individual needs and preferences.",
     delayAnim: "300",
   },
 ];

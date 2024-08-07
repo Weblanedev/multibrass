@@ -49,7 +49,7 @@ export default function Checkout() {
     e.preventDefault();
     if (isFormValid()) {
       // Display success message
-      setSuccessMessage("Your order has been placed successfully!");
+      setSuccessMessage("Your have registered successfully!");
 
       // Clear input fields
       setFirstName("");
@@ -65,7 +65,7 @@ export default function Checkout() {
       setOrderdetails("")
       setSelectedRegion("");
       setTimeout(() => {
-        navigate("/books")
+        navigate("/")
       }, 4000)
     } else {
       // Handle form invalid case if needed
@@ -290,10 +290,10 @@ export default function Checkout() {
                           <th>SUBTOTAL</th>
                           <td>${localStorage.getItem("price")}</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                           <th>SHIPPING</th>
                           <td>Free shipping</td>
-                        </tr>
+                        </tr> */}
                         <tr>
                           <th>VAT</th>
                           <td>${Number(localStorage.getItem("price")) && 19}</td>
@@ -353,10 +353,10 @@ export default function Checkout() {
                     </div>
                   </div> */}
                   <button 
-                    className="btn btn-twentyOne w-100"
+                    className="btn-fourteen w-100"
                     disabled={!isFormValid()}
                   >
-                    PLACE ORDER
+                  Complete Registration
                   </button>
                   {successMessage && (
                     <div className="alert alert-success mt-3">

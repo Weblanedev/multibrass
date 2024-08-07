@@ -42,10 +42,10 @@ const DefaulHeader = () => {
               <i className="bi bi-person" />
             </Link> */}
             <Link
-              to="/contact"
-              className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
+              to="/contact/contact-v3"
+              className="start-btn-one fs-18 fw-500 tran3s position-relative d-none d-lg-block"
             >
-              Contact us
+              Get Started
             </Link>
           </div>{" "}
           {/* /.right-widget */}

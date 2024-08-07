@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import MainMenu from "./MainMenu";
+import PortfolioMenu from "./PortfolioMenu";
 import { Link } from "react-router-dom";
 
 const DefaulHeader = () => {
@@ -30,27 +31,28 @@ const DefaulHeader = () => {
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
             <Link to="/" className="d-block">
-              <img src="/images/logo/logo_01.png" alt="logo" />
+              {/* <img src="/images/logo/logo_01.png" alt="logo" /> */}
+              <p className="text-lg tx-dark hero-heading fw-bold">Multibrass.</p>
             </Link>
           </div>
           {/* End logo */}
           <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-            <Link
+            {/* <Link
               to="/login"
               className="login-btn-two fw-500 d-flex align-items-center me-3 me-xl-5"
             >
               <img src="/images/icon/icon_62.svg" alt="icon" className="me-2" />
               <span>login</span>
-            </Link>
+            </Link> */}
             <Link
-              to="/contact/contact-v3"
+              to="/contact"
               className="start-btn-one fs-18 fw-500 tran3s position-relative d-none d-lg-block"
             >
               Get Started
             </Link>
           </div>{" "}
           {/* /.right-widget */}
-          <MainMenu />
+          <PortfolioMenu />
         </div>
       </div>
       {/* /.inner-content */}

@@ -32,6 +32,7 @@ import TeamV2 from "./pages/pages-menu/team-v2";
 import Pricing from "./pages/pages-menu/pricing";
 import PricingV2 from "./pages/pages-menu/pricing-v2";
 import PricingV3 from "./pages/pages-menu/pricing-v3";
+import PricingV31 from "./pages/pages-menu/pricing-v3-1";
 import FeaturesV1 from "./pages/pages-menu/features-v1";
 import FeaturesV2 from "./pages/pages-menu/features-v2";
 import Testimonials from "./pages/pages-menu/testimonials";
@@ -68,9 +69,9 @@ function App() {
     <div className="main-page-wrapper">
       <Routes>
         <Route path="/">
-          <Route index element={<Insurance />} />
-          {/* <Route path="home/web-hosting" element={<WebHosting />} />
-          <Route path="home/education" element={<Education />} />
+          {/* <Route index element={<Insurance />} /> */}
+           <Route path="/" element={<WebHosting />} />
+        {/*  <Route path="home/education" element={<Education />} />
           <Route path="home/charity" element={<Charity />} />
           <Route path="home/real-estate" element={<RealEstate />} />
           <Route path="home/sass-product" element={<SassProduct />} />
@@ -85,12 +86,12 @@ function App() {
           {/* <Route path="home/design-agency" element={<DesignAgency />} /> */}
           {/* <Route path="home/lead-generation" element={<LeadGeneration />} /> */}
 
-          <Route path="/about-us" element={<AboutUsV1 />} />
+          {/* <Route path="/about-us" element={<AboutUsV1 />} /> */}
           {/* <Route path="pages-menu/about-us-v2" element={<AboutUsV2 />} /> */}
           {/* <Route path="pages-menu/about-us-v3" element={<AboutUsV3 />} /> */}
-          {/* <Route path="pages-menu/about-us-v4" element={<AboutUsV4 />} /> */}
+          <Route path="/about-us" element={<AboutUsV4 />} />
 
-          <Route path="/our-services" element={<ServiceV1 />} />
+          {/* <Route path="/our-services" element={<ServiceV1 />} /> */}
           <Route path="/checkout" element={<Checkout />} />
           {/* <Route path="pages-menu/service-v2" element={<ServiceV2 />} /> */}
           {/* <Route path="pages-menu/service-v3" element={<ServiceV3 />} /> */}
@@ -102,45 +103,46 @@ function App() {
 {/* 
           <Route path="pages-menu/team-v1" element={<TeamV1 />} />
           <Route path="pages-menu/team-v2" element={<TeamV2 />} /> */}
+          {/* <Route path="pages-menu/pricing" element={<Pricing />} /> */}
+          {/* <Route path="pages-menu/pricing-v2" element={<PricingV2 />} /> */}
+          <Route path="/our-counseling" element={<PricingV3 />} />
+          <Route path="/our-workshops" element={<PricingV31 />} />
 {/* 
-          <Route path="pages-menu/pricing" element={<Pricing />} />
-          <Route path="pages-menu/pricing-v2" element={<PricingV2 />} />
-          <Route path="pages-menu/pricing-v3" element={<PricingV3 />} />
 
           <Route path="pages-menu/features-v1" element={<FeaturesV1 />} />
           <Route path="pages-menu/features-v2" element={<FeaturesV2 />} /> */}
 
-          <Route path="/faq" element={<Faq />} />
+          {/* <Route path="/faq" element={<Faq />} /> */}
           {/* <Route path="pages-menu/testimonials" element={<Testimonials />} /> */}
           {/* <Route path="login" element={<LogIn />} /> */}
           {/* <Route path="signup" element={<SignUp />} /> */}
-          <Route path="*" element={<NotFound />} />
+          {/* <Route path="*" element={<NotFound />} /> */}
 
           {/* <Route path="portfolio/portfolio-v1" element={<PortfolioV1 />} /> */}
-          <Route path="/books" element={<PortfolioV2 />} />
+          {/* <Route path="/products" element={<PortfolioV2 />} /> */}
           {/* <Route path="portfolio/portfolio-v3" element={<PortfolioV3 />} /> */}
           {/* <Route path="portfolio/portfolio-v4" element={<PortfolioV4 />} />
           <Route path="portfolio/portfolio-v5" element={<PortfolioV5 />} />
           <Route path="portfolio/portfolio-v6" element={<PortfolioV6 />} />
           <Route path="portfolio/portfolio-v7" element={<PortfolioV7 />} /> */}
-          <Route path="/books/:id" element={<DynamicPortfolioDetails />} />
+          {/* <Route path="/books/:id" element={<DynamicPortfolioDetails />} /> */}
 
           {/* <Route path="blog/blog-v1" element={<BlogV1 />} />
           <Route path="blog/blog-v2" element={<BlogV2 />} />
           <Route path="blog/blog-v3" element={<BlogV3 />} />
           <Route path="blog/:id" element={<DynamicBlogDetails />} /> */}
 
-          <Route path="/contact" element={<ContactV1 />} />
-          {/* <Route path="contact/contact-v2" element={<ContactV2 />} />
-          <Route path="contact/contact-v3" element={<ContactV3 />} />
-          <Route path="contact/contact-v4" element={<ContactV4 />} /> */}
+          {/* <Route path="/contact" element={<ContactV1 />} /> */}
+          {/* <Route path="contact/contact-v2" element={<ContactV2 />} /> */}
+          <Route path="/contact" element={<ContactV3 />} />
+        {/*  <Route path="contact/contact-v4" element={<ContactV4 />} /> */}
 
           {/* <Route path="*" element={<NotFound />} /> */}
         </Route>
       </Routes>
       <ScrollTopBehaviour />
 
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </div>
   );
 }

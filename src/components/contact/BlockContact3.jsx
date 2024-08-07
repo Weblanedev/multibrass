@@ -33,7 +33,7 @@ const BlockContact3 = () => {
               <h5 className="title tx-dark mt-25 mb-10">{block.title}</h5>
               <p className="fs-18 mb-35">{block.text}</p>
               <a
-                href="#"
+                href="#contact"
                 className="btn-twentySix fs-18 fw-500 tran3s position-relative"
               >
                 {block.buttonLabel}

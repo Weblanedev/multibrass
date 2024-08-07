@@ -1,37 +1,37 @@
 const Faq = () => {
   const faqData = [
     {
-      question: "What is web hosting?",
+      question: "What services does Multibrass offer?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "Multibrass provides a range of services including guidance and counseling, organizing symposiums and workshops, We aim to meet various needs through comprehensive and tailored solutions.",
     },
     {
-      question: "How do you weigh different criteria in your process?",
+      question: "How can I contact Multibrass for support or inquiries?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "You can reach out to us through our contact form on the website. Our customer support team is available to assist you with any questions or concerns.",
     },
     {
-      question: "What can I use to build my website?",
+      question: "What types of guidance and counseling services do you offer?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "We offer individual and group counseling sessions, career guidance, and life coaching. Our services are designed to support personal growth, resolve challenges, and achieve your goals through professional and empathetic support.",
     },
     {
-      question:
-        "If I already have a website, can I transfer it to your web hosting?",
+      question: "How can I book a counseling session?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "You can book a counseling session by visiting our website and filling out the appointment request form. Alternatively, you can contact us directly via email or phone to schedule a session.",
     },
     {
-      question: "How can I accept credit cards online?",
+      question: "What types of symposiums and workshops do you organize?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "We organize a variety of symposiums and workshops covering topics such as personal development, industry trends, and professional skills. Our events are designed to provide valuable insights, networking opportunities, and practical knowledge.",
     },
     {
-      question: "What are the additional requirements I should know about?",
+      question: "What payment methods do you accept?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "We accept various payment methods including credit/debit cards, bank transfers, and other secure online payment options. Details of accepted payment methods are provided during the checkout process.",
     },
   ];
+  
 
   return (
     <div className="accordion accordion-style-two" id="accordionOne">

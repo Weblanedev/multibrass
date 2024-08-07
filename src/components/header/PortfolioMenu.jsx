@@ -3,10 +3,11 @@ import { useState } from "react";
 
 const navItems = [
   { title: "About Us", href: "/about-us" },
-  { title: "Services", href: "/our-services" },
+  { title: "Workshops", href: "/our-workshops" },
+  { title: "Counseling", href: "/our-counseling" },
   // { title: "Portfolio", href: "#s3" },
-  { title: "Books", href: "/books" },
-  { title: "Faqs", href: "/faq" },
+  // { title: "Products", href: "/Products" },
+  // { title: "Faqs", href: "/faq" },
 ];
 
 const PortfolioMenu = () => {

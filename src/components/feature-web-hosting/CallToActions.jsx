@@ -14,19 +14,19 @@ const CallToActions = () => {
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-5">
                   <h2 className="m0 text-white fw-bold md-pb-20">
-                    Sign up for best web hosting today.
+                    Contact us if you have more questions.
                   </h2>
                 </div>
                 {/* End .col-6 */}
 
                 <div className="col-xl-6 col-lg-7">
                   <div className="d-sm-flex align-items-center justify-content-center justify-content-lg-end">
-                    <Link
-                      to="/contact/contact-v3"
+                    {/* <Link
+                      to="/contact"
                       className="btn-line fw-500 tran3s position-relative me-sm-5"
                     >
                       Chat with a an Expert
-                    </Link>
+                    </Link> */}
                     <Link
                       to="/contact/contact-v3"
                       className="btn-solid fw-500 tran3s"
