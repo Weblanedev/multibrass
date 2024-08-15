@@ -104,7 +104,7 @@ const PricingV31 = () => {
               <div className="col-xl-2 footer-intro mb-40">
                 <div className="logo">
                   <Link to="/">
-                    <img src="/images/logo/logo_01.png" alt="brand" />
+                    <p className="text-lg tx-dark hero-heading fw-bold">Multibrass.</p>
                   </Link>
                 </div>
               </div>
